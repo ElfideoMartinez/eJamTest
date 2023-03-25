@@ -1,0 +1,417 @@
+body{
+    background-color: whitesmoke;
+}
+footer{
+    width: 100%;
+    padding: 40px 0;
+    margin-top: 0;
+    position: relative;
+    overflow: hidden;
+    color: #9d9fa2;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.benefits-list{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.benefits-list li{
+    align-items: center;
+    list-style-type: none;
+    font-family: "Noto Sans", sans-serif;
+    position: relative;
+    text-align: left;
+    margin-top: 17.6px;
+    line-height: 150%;
+}
+.choose-warranty{
+    user-select: none;
+    border: 1px #e0e0e0 solid;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 400ms cubic-bezier(0, 0, 0.3, 1);
+    outline: none;
+}
+.contact-information{
+    border-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.discount-section{
+    height: fit-content;
+    background-color: white;
+    border: 1px #e0e0e0 solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.header .logo-container{
+    width: calc(100% - 17.6px);
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.sutera-logo-container{
+    user-select: none;
+    margin-left: 17.6px;
+    flex-wrap: nowrap;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 56px;
+}
+.faq-section{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 4px - 17.6px);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.flag{
+    background-image: url(https://checkout.sleepdreamdeep.com/suteradreamdeepfbshop4str/img/flag_sprite.png);
+    background-position: 0 -7896px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    height: 56px;
+    width: 56px;
+}
+.flag-contact-info{
+    margin-left: auto;
+    margin-right: 17.6px;
+    display: flex;
+    align-items: center;
+}
+.form-input{
+   width: calc(100% - 35.2px);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 17.6px;
+    background-color: whitesmoke;
+    padding: 17.6px;
+    font-size: 16px;
+}
+.gallery{
+    width: 100%;
+    max-width: 400px;
+    min-height: 500px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.payment-section{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: calc(100% - 4px - 17.6px);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.paypal-submit{
+    transition: all 300ms ease-out;
+    width: 100%;
+    height: 50px;
+    background-color: #ffbd03;
+    border-radius: 5px;
+    margin: 17.6px auto 0 auto;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.payment-methods{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    background-color: white;
+    border: 1px #e0e0e0 solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 50%;
+}
+.pillow-advertisement{
+    border-color: rgb(50, 50, 50);
+    border-style: dashed;
+    width: calc(100% - 4px - 17.6px);
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    margin: 10px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.profile-picture-container{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #89a383;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    position: relative;
+    padding: 4px; background: rgb(3, 28, 60);
+}
+@media screen and (max-width: 767px) {
+    .ssl-logo{
+        display: none;
+    }
+}
+ @media screen and (max-width: 767px) {
+    .pillow-advertisement {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+}
+ @media screen and (max-width: 767px) {
+    .payment-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .payment-methods{
+        width: 90%;
+    }
+}
+.selector{
+    position: absolute;
+    top: calc(30.2px);
+    height: 25px;
+    left: 14.66667px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: -3px 0 0 -10px;
+    padding: 3px 6px 3px 0;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.15);
+}
+.spiner-container{
+    width: 100px;
+    height: 100px;
+    background-color: #c91f3f;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 110%;
+}
+.spiner{
+    width: 84px;
+    height: 84px;
+    border: 2px dashed white;
+    position: absolute;
+    border-radius: 100%;
+    -webkit-animation: rotating 10s linear infinite;
+  -moz-animation: rotating 10s linear infinite;
+  -ms-animation: rotating 10s linear infinite;
+  -o-animation: rotating 10s linear infinite;
+  animation: rotating 10s linear infinite;
+
+}
+.description{
+    display: block;
+    width: calc(90% - 35.2px);
+    margin: 0 auto;
+}
+.description h1 {
+    font-size: 28px;
+    margin-top: 0;
+    line-height: 130%;
+}
+.description h1 p{
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    color: #323232;
+    margin: unset;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.isvgloaded{
+    height: 30px;
+    width: 30px;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-image {
+  position: relative;
+}
+
+.main-image img {
+  max-width: 100%;
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 0 20px;
+}
+
+.nav a {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #337ab7;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.thumbnail {
+  margin: 0 10px;
+}
+
+.thumbnail img {
+  max-width: 100%;
+  border: 3px solid white;
+}
+
+.thumbnail.active img {
+  border-color: #ccc;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.arrow{
+    position: relative;
+    transform: translateY(200%);
+    top:16%;
+    left: -44px;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+input[type="radio"] {
+  display: none; /* hide the default radio button */
+}
+input[type="radio"] + label {
+    align-items: center;
+    flex: 1;
+  cursor: pointer;
+  display: inline-block;
+}
+input[type="radio"] + label:before {
+    align-items: center;
+  content: ""; /* create an empty pseudo-element */
+  display: inline-block;
+  border: 1px solid #999;
+  border-radius: 50%;
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.5em;
+  vertical-align: middle; /* align the pseudo-element vertically */
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label:before {
+  content: "\2713"; /* show a check mark when the radio button is checked */
+  background-color: #172969;
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.2em;
+  text-align: center;
+}
+.question{
+    padding: 13.33333px 20px;
+    text-align: left;
+    border: 2px solid rgba(40, 40, 80, 0.3);
+    border-radius: 3px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    line-height: 140%;
+    justify-content: space-between;
+    background-color: #323232;
+    color: white;
+}
